@@ -1,0 +1,15 @@
+imageio==2.33.1
+matplotlib==3.4.3
+mmengine==0.9.1
+numpy==1.21.2
+open3d==0.17.0
+opencv_contrib_python==4.5.1.48
+opencv_python_headless==4.5.1.48
+Pillow==9.5.0
+Pillow==10.3.0
+plyfile==1.0.3
+scipy==1.6.3
+setuptools==58.2.0
+torch==1.10.0a0+0aef44c
+torchvision==0.11.0a0
+tqdm==4.62.3
