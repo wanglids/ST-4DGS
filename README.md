@@ -19,10 +19,6 @@ motion objects. It achieve  high-fidelity dynamic rendering quality and maintain
     <source src="asset/cut_roasted_beef.mp4" type="video/mp4">
 </video>
 
-<video src="https://github.com/wanglids/ST-4DGS/tree/main/asset/cut_roasted_beef.mp4" controls="controls" width="720" height="540" loop="loop" preload="auto"></video>
-
-<video src="https://github.com/wanglids/ST-4DGS/tree/main/asset/Ballon.mp4" controls="controls" width="720" height="540" loop="loop" preload="auto"></video>
-
 ***
 
 ## Environmental Setups
