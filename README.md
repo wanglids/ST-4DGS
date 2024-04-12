@@ -14,6 +14,17 @@ Deqi Li<sup>1</sup>, Shi-Sheng Huang<sup>1</sup>, Zhiyuan Lu<sup>1</sup>, Xinran
 Our method guarantee the compactness of the 4D Gaussians that adhere to the surface in  
 motion objects. It achieve  high-fidelity dynamic rendering quality and maintains real-time rendering efficiency.
 
+<iframe 
+src="asset/cut_roasted_beef.mp4" 
+scrolling="no" 
+border="0" 
+frameborder="no" 
+framespacing="0" 
+allowfullscreen="true" 
+height=540 
+width=720> 
+</iframe>
+
 <video src="asset/cut_roasted_beef.mp4" controls="controls" width="720" height="540" loop="loop" preload="auto"></video>
 
 <video src="asset/Ballon.mp4" controls="controls" width="720" height="540" loop="loop" preload="auto"></video>
