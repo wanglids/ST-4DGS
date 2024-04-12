@@ -16,7 +16,6 @@ motion objects. It achieve  high-fidelity dynamic rendering quality and maintain
 
 <video src="asset/cut_roasted_beef.mp4" controls="controls" width="720" height="540" loop="loop" preload="auto"></video>
 
-
 <video src="asset/Ballon.mp4" controls="controls" width="720" height="540" loop="loop" preload="auto"></video>
 
 ***
