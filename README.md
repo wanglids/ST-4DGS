@@ -91,8 +91,6 @@ cd $ ROOT_PATH/
 python render.py --source_path rootpath/data/DyNeRF/cook_spinach --model_path output/test --configs arguments/DyNeRF.py
 ```
 
-In addition, you can also use Viewer as [3DGS](https://github.com/graphdeco-inria/gaussian-splatting) or [4DGS](https://github.com/hustvl/4DGaussians) to view rendering images.
-
 ---
 
 ## Citation
