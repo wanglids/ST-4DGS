@@ -67,7 +67,7 @@ We evaluate the proposed ST-4DGS on three publicly available datasets of dynamic
 |	|── Dynamic Scene
 |		|── ...
 ```
-The input folder is the collection data of different cameras at the same time. Calculate camera parameters and initialize Gaussians based on [COLMAP](https://github.com/colmap/colmap) (execute ```python scripts/convert.py``` as [3DGS](https://github.com/graphdeco-inria/gaussian-splatting)). The optical flow is estimated by [RAFT](https://github.com/princeton-vl/RAFT). You can place **scripts/getFlow.py** in the installation root directory of [RAFT](https://github.com/princeton-vl/RAFT) (such as ./submodels/RAFT) and then estimate the optical flow via running
+The ```colmap/input``` folder is the collection data of different cameras at the same time. Calculate camera parameters and initialize Gaussians based on [COLMAP](https://github.com/colmap/colmap) (execute ```python scripts/convert.py```). The optical flow is estimated by [RAFT](https://github.com/princeton-vl/RAFT). You can place **scripts/getFlow.py** in the installation root directory of [RAFT](https://github.com/princeton-vl/RAFT) (such as ./submodels/RAFT) and then estimate the optical flow via running
 ```
 cd $ ROOT_PATH/submodels/RAFT
 python getFlow.py --source_path rootpath/data/DyNeRF/cook_spinach --win_size timestep
