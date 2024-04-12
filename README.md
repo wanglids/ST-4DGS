@@ -25,9 +25,9 @@ height=540
 width=720> 
 </iframe>
 
-<video src="asset/cut_roasted_beef.mp4" controls="controls" width="720" height="540" loop="loop" preload="auto"></video>
+<video src="https://github.com/wanglids/ST-4DGS/tree/main/asset/cut_roasted_beef.mp4" controls="controls" width="720" height="540" loop="loop" preload="auto"></video>
 
-<video src="asset/Ballon.mp4" controls="controls" width="720" height="540" loop="loop" preload="auto"></video>
+<video src="https://github.com/wanglids/ST-4DGS/tree/main/asset/Ballon.mp4" controls="controls" width="720" height="540" loop="loop" preload="auto"></video>
 
 ***
 
