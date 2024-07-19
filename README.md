@@ -1,7 +1,7 @@
 
 # ST-4DGS: Spatial-Temporally Consistent 4D Gaussian Splatting for Efficient Dynamic Scene Rendering
 ***
-### SIGGRAPH 2024
+### SIGGRAPH 2024   ### [paper](https://dlnext.acm.org/doi/10.1145/3641519.3657520)
 ***
 Deqi Li<sup>1</sup>, Shi-Sheng Huang<sup>1</sup>, Zhiyuan Lu<sup>1</sup>, Xinran Duan<sup>1</sup>, Hua Huang<sup>1✉</sup>
 
@@ -97,11 +97,14 @@ python render.py --source_path rootpath/data/DyNeRF/cook_spinach --model_path ou
 If you find this code useful for your research, welcome to cite the following paper:
 ```
 @inproceedings{Li2024ST,
-  title={ST-4DGS: Spatial-Temporally Consistent 4D Gaussian Splatting for Efficient Dynamic Scene Rendering},
-  author={Li, Deqi and Huang, Shi-Sheng and Lu, Zhiyuan and Duan, Xinran and Hua, Huang},
-  booktitle={ACM SIGGRAPH 2024 Conference Proceedings},
-  pages={1--10},
-  year={2024}
+author = {Li, Deqi and Huang, Shi-Sheng and Lu, Zhiyuan and Duan, Xinran and Huang, Hua},
+title = {ST-4DGS: Spatial-Temporally Consistent 4D Gaussian Splatting for Efficient Dynamic Scene Rendering},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+booktitle = {ACM SIGGRAPH 2024 Conference Papers},
+keywords = {4D Gaussian Splatting, Dynamic Scene Rendering, Spatial-Temporally Conistent},
+location = {Denver, CO, USA},
+series = {SIGGRAPH '24}
 }
 ```
 ## Acknowledgments
