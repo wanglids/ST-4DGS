@@ -85,7 +85,7 @@ python train.py --source_path rootpath/data/DyNeRF/cook_spinach --model_path out
 
 
 ## Rendering
-You can download [pre trained data and models](https://drive.google.com/drive/folders/1sS5XDBkcAz4A4Lovl7-h-gsWF51nwy9F?usp=sharing) and place them in the **output/test** folder. Run the following script to render the images.
+You can download [pre trained data and models](https://drive.google.com/drive/folders/1VdLo514HKJdQPUb5vYIXPdVW1xsXqKzB?usp=drive_link) and place them in the **output/test** folder. Run the following script to render the images.
 ```
 cd $ ROOT_PATH/
 python render.py --source_path rootpath/data/DyNeRF/cook_spinach --model_path output/test --configs arguments/DyNeRF.py
