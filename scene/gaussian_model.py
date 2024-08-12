@@ -511,49 +511,7 @@ class GaussianModel:
 
         torch.cuda.empty_cache()
 
-    def remove_nan(self,args,dataset,saving_iterations,iteration,flag):
-
-
-        xyz_t = torch.isfinite(self.get_xyz)
-        xyz_m = torch.logical_and(xyz_t[:,0],torch.logical_and(xyz_t[:,1],xyz_t[:,2]))
-        if False in xyz_m:
-            print("xyz has nan or inf!")
-        scale_t = torch.isfinite(self.get_scaling)
-        scale_m = torch.logical_and(scale_t[:,0],torch.logical_and(scale_t[:,1],scale_t[:,2]))
-
-        rotation_t = torch.isfinite(self.get_rotation)
-        rotation_m = torch.logical_and(rotation_t[:,0],torch.logical_and(rotation_t[:,1],torch.logical_and(rotation_t[:,2],rotation_t[:,3])))
-
-        # opacity_m = torch.isfinite(self.get_opacity)
-        # remove_mask = torch.logical_and(xyz_m,torch.logical_and(scale_m,torch.logical_and(opacity_m[:,0],rotation_m))) # nan False
-        remove_mask = torch.logical_and(xyz_m,torch.logical_and(scale_m,rotation_m)) # nan False
-
-
-        if False in xyz_m:
-            print("xyz has nan or inf!")
-        if False in scale_m:
-            print("scale has nan or inf!")
-        if False in rotation_m:
-            print("rotation has nan or inf!")
-
-        self.prune_points(~remove_mask)
-        if flag == 1:
-            print("reset_model")
-            if iteration < saving_iterations[0]:
-                self._deformation = deform_network(args)
-                self._deformation = self._deformation.to('cuda')
-            else:
-                for i in range(len(saving_iterations)):
-                    load_iteration = saving_iterations[i]
-                    if iteration<load_iteration:
-                        load_iteration = saving_iterations[i-1]
-                        break
-                self.restore(os.path.join(dataset.source_path, dataset.model_path), load_iteration)
-
-
-        torch.cuda.empty_cache()
-
-
+   
     def geometry_prune_point(self,neighbors,std):
 
         pcd_vector = o3d.geometry.PointCloud()
